@@ -1,0 +1,303 @@
+.icon-Smsmagicsmsservice:before, .icon-Smsmagicsmsservice:before { content: "\f0e0"; }
+.anchorbutton{ border:1px solid #ccc; padding:5px; text-decoration: none !important;}
+.activeSMSmenu {background: #fff none repeat scroll 0 0;border: 1px solid green;color: green !important;text-decoration: none !important;}
+.screen_magic_wrapper {
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  margin: 15px 0 10px;
+  padding: 25px 20px;
+}
+
+.oneHop_wrapper{
+	background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+	border: 1px solid rgb(204, 204, 204);
+	border-radius: 5px;
+	padding: 10px;
+	overflow: auto;
+	margin-top: 15px;
+}
+
+.div_fields {
+  margin-bottom: 1%;
+}
+.div_fields label {
+  float: left;
+  width: 20%;
+}
+.templatesList th, td{
+	padding : 5px;
+}
+.template_form {
+  float: left;
+  width: 55%;
+}
+.templatesList tr:nth-child(odd) {
+    background-color: #F9F9F9;
+}
+.templatesList {
+  margin-top: 10px;
+}
+.clearboth{
+	clear:both;
+}
+.smsediticon{
+	font-size: 20px;
+}
+.smstemplatebtn, .delete_template {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: none;
+  color: #0073aa;
+  text-decoration: none;
+  cursor: pointer;
+}
+.delete_template:hover, .delete_template:visited{
+	color: #0073aa;
+  	text-decoration: none;
+  	border: none;
+}
+.smsRequired{
+	color: #ff0000;
+}
+/*.sms-form input[type='text'], .sms-form textarea{
+	width: 60%;
+}*/
+.sms-form select{
+	width: auto;
+	min-width: 20%;
+}
+#manage_sms select{
+	width: auto;
+	min-width: 15.5%;
+}
+.formdescription{
+	font-style: italic;
+	margin-left: 20%;
+}
+
+.panel-heading{
+	text-transform: uppercase;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0px 5px;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+/* Lagends CSS */
+.template_legends
+{
+	float: left;
+	width: 45%;
+}
+.lagendTabs {
+  background-color: #f5f8f9;
+  border: 1px solid #cccccc;
+  list-style: outside none none;
+  padding: 0;
+}
+.lagendTabs label {
+  width: 50%;
+}
+.lagendTabs > li:first-child {
+  background-color: #eff1f2;
+  font-weight: bold;
+  padding: 5px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.lagendTabs > li {
+  border-bottom: 1px solid #cccccc;
+  padding: 5px 10px;
+}
+/* added at 23 May  */
+.form-wrapper
+{
+	font-size: 13px;
+}
+.form-wrapper ul
+{
+	margin-top: 5px;
+}
+.form-wrapper span
+{
+	font-weight: bold;
+	font-size: 12px;
+}
+.anchorbutton{ 
+border:1px solid #3DABC1;background:#3DABC1; color: #fff !important;border-top-left-radius:5px; border-top-right-radius:5px; padding:5px 10px; text-decoration: none !important;
+}
+.activeSMSmenu
+{
+	background: #236977;
+	border:1px solid #236977;
+}
+.bootstrap li
+{
+	line-height: 30px;
+}
+.bootstrap .alert
+{
+	margin-bottom: 10px;
+}
+.bootstrap .form-horizontal .control-label
+{
+	text-align: left;
+}
+.panel-footer [class^="process-icon-"]
+{
+	font-size: 16px;
+    display: inline;
+    padding-right: 5px;
+}
+.bootstrap .panel-footer .btn.btn-default, .bootstrap .panel-footer .btn-default:focus,
+.bootstrap .btn-default
+{
+	background: #268FA4;
+	border: 1px solid #268FA4;
+	font-size: 14px;
+	color: #fff;
+}
+.bootstrap .panel-footer .btn.btn-default:hover,
+.bootstrap .btn-default:hover, .bootstrap .btn-default:focus
+{
+	border: 1px solid #1B7F93 !important;
+	background: #1B7F93 !important;
+	color: #fff;
+}
+.bootstrap .panel-footer .btn.btn-default i
+{
+	color: #fff;
+}
+.bootstrap .panel-footer .pull-right {
+    float: left !important;
+}
+.bootstrap .panel .panel-footer
+{
+	height: 50px;
+}
+.automation_text
+{
+	width: 200px !important;
+}
+.sms-form input[type='text'],
+.sms-form textarea
+{
+	width: 400px; /*madhuri*/
+}
+.bootstrap a, .icon-edit
+{
+	color: #268FA4;
+}
+.lagendTabs td
+{
+	border: 1px solid #ccc;
+}
+.lagendTabs tr:first-child td
+{
+	background: #F1F1F1;
+}
+.header_row td, .header_td
+{
+	background: #E6E6E6;
+}
+.bootstrap table
+{
+	width: 100%;
+}
+.btn.btn-default.dropdown-toggle
+{
+ background: #fff;
+}
+
+.bootstrap label
+{
+	font-weight: normal;
+}
+.lagendTabs h4
+{
+	font-size: 13px !important;
+}
+@-moz-document url-prefix() 
+{
+    .bootstrap .btn.btn-default.dropdown-toggle
+    {
+        padding: 5px 8px 4px;
+    }
+}
+@media (min-width: 1023px) and (max-width: 1025px)
+{
+	.template_form 
+	{
+	  width: 50%;
+	}
+	.template_legends 
+	{
+	    width: 50%;
+	}
+	.sms-form input[type='text'],
+	.sms-form textarea
+	{
+		width: 330px; /*madhuri*/
+	}
+	.template_legends
+	{
+		font-size: 11px;
+	}
+}
+@media (min-width: 1367px)
+{
+	.onehopIframe{
+		width: 100%;
+	} 
+}
+.onehopIframe{
+	border: none;
+}
+#smsAutomationForms
+{
+	margin-top: 15px;
+}
+#configurationform
+{
+	margin-top: 15px;
+}
+form .form-wrapper div:first-child label
+{
+	width: 100%;
+}
+form .form-wrapper div:first-child label
+{
+	width: 100%;
+	font-weight: bold;
+}
+#templatetype {
+  float: left;
+  margin-right: 10px;
+}
+#templateplaceholder {
+  float: left;
+}
+.anchorBtn {
+  border-radius: 3px;
+  float: left;
+  margin-left: 10px;
+  padding: 4px;
+  text-decoration: none !important;
+}
+input, select, textarea{
+	font-size: 13px;
+}
+.btn{
+    color: #fff;
+    background-color: #0073aa;
+    border: 1px solid #0073aa;
+}
+.module_error.alert.alert-danger {
+  margin-top: 15px;
+}
+.defaultForm.form-horizontal {
+  margin-top: 15px;
+}
+.module_confirmation.conf.confirm.alert.alert-success {
+  margin-top: 15px;
+}

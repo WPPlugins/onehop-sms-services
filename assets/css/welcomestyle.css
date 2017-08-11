@@ -1,0 +1,236 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+.welwrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    font-family: 'Source Sans Pro';
+    line-height: 1.42857143;
+    font-weight: normal;
+    background-color: #fff;
+}
+
+    .welwrapper .container {
+        max-width: 800px;
+    }
+
+.acc_banner {
+    width: 800px;
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    background: #f4fcfc;
+}
+
+.content {
+    width: 800px;
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    border: 1px solid #ccc;
+}
+
+.content-inner {
+    padding: 10px 25px 25px 25px;
+    width: 750px;
+}
+
+.content h3 {
+    font-size: 140%;
+}
+
+.welwrapper p {
+    font-size: 14px;
+}
+
+.welwrapper h1,
+.welwrapper h2,
+.welwrapper h3,
+.welwrapper h4,
+.welwrapper h5,
+.welwrapper h6 {
+    font-weight: 500;
+    font-family: 'Source Sans Pro';
+}
+
+.content ul {
+    margin: 0px 0px 15px 0px;
+    padding: 0px 0px 0px 15px;
+}
+
+    .content ul li {
+        font-size: 1em;
+        list-style: disc;
+        margin: 0px 0px 8px 0px;
+    }
+
+    .content ul.subpoints li {
+        list-style: circle;
+    }
+
+    .content ul li i {
+        font-style: italic;
+    }
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.welwrapper .custom_container {
+    width: 800px;
+    margin: 0px auto;
+    font-family: 'Source Sans Pro';
+}
+
+.onehop_list {
+    background: #f4fcfc;
+    overflow: hidden;
+    padding: 0 80px;
+    font-family: 14px;
+    padding-bottom: 30px;
+}
+
+.onehop_docs {
+    background: #f4fcfc;
+    font-family: 14px;
+    padding: 10px 0 1px 0;
+    margin-bottom: 30px;
+}
+
+.onehop_list li {
+    background: url(../images/list_bg.png) left center no-repeat;
+    padding-left: 30px;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.onehop_list h2 {
+    color: #f89928;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 27px;
+}
+
+h2.acc_title {
+    color: #f89928;
+    text-align: center;
+    margin-bottom: 35px;
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.productdoc_title {
+    color: #288e79 !important;
+}
+
+.support_title {
+    color: #0091b5 !important;
+}
+
+.download_sec,
+.contact_info {
+    padding: 0 40px 0 50px;
+}
+
+    .download_sec li {
+        margin: 30px 0;
+        font-size: 18px;
+    }
+
+        .download_sec li img {
+            margin-right: 10px;
+        }
+
+        .download_sec li a {
+            color: #000000;
+            text-decoration: none;
+        }
+
+.panel-group {
+    padding: 0 40px;
+}
+
+    .panel-group .panel {
+        border: none !important;
+        border-radius: 0px !important;
+        box-shadow: none !important;
+        margin-bottom: 20px;
+    }
+
+.panel-default > .panel-heading {
+    background: none !important;
+    border: none !important;
+    font-family: 'Source Sans Pro' !important;
+    text-transform: capitalize !important;
+    color: #236977 !important;
+}
+
+    .panel-default > .panel-heading + .panel-collapse > .panel-body {
+        border: none !important;
+    }
+
+#accordion .panel-title a {
+    color: #236977;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+    #accordion .panel-title a .seq_no {
+        background: #f89928;
+        color: #ffffff;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        text-align: center;
+        line-height: 27px;
+        margin-right: 20px;
+    }
+
+#accordion .panel-title a .glyphicon{
+    color: #f89928;
+    margin-left: 15px;
+    vertical-align: middle;
+    font-size: 30px !important;
+}
+
+.contact_info {
+    font-size: 18px;
+    color: #000000;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+
+    .contact_info img {
+        margin-right: 10px;
+    }
+
+.acc_1_list li {
+    font-size: 17px;
+    background: url(../images/bullet.png) left top no-repeat;
+    padding-left: 20px;
+}
+
+.acc_2_list li {
+    font-size: 17px;
+    margin: 15px 0;
+}
+
+.acc_3_data {
+    font-size: 17px;
+}
+
+.acc_3_list li {
+    font-size: 17px;
+    background: url(../images/bullet.png) left center no-repeat;
+    padding-left: 20px;
+    margin: 20px 0;
+}
+
+.stronger {
+    font-weight: bold;
+}
